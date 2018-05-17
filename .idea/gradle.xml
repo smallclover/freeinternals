@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/Java/gradle/gradle-4.2.1-all/gradle-4.2.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BinaryInternalsViewer" />
+            <option value="$PROJECT_DIR$/CommonLib" />
+            <option value="$PROJECT_DIR$/FormatBMP" />
+            <option value="$PROJECT_DIR$/FormatCLASS" />
+            <option value="$PROJECT_DIR$/FormatDEX" />
+            <option value="$PROJECT_DIR$/FormatELF" />
+            <option value="$PROJECT_DIR$/FormatJPEG" />
+            <option value="$PROJECT_DIR$/FormatPDF" />
+            <option value="$PROJECT_DIR$/FormatPE" />
+            <option value="$PROJECT_DIR$/FormatPNG" />
+            <option value="$PROJECT_DIR$/FormatZIP" />
+            <option value="$PROJECT_DIR$/JavaClassViewer" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
