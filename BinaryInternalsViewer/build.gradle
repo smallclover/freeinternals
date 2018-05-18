@@ -13,3 +13,11 @@ dependencies {
     compile project(":CommonLib")
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+//指定JAR包 main方法
+jar {
+    manifest {
+        attributes 'Main-Class': 'org.freeinternals.biv.Main'
+        attributes 'Class-Path': configurations.runtime.files.collect { 'libs/' + it.name }.join(' ')
+    }
+}
