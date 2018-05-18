@@ -6,6 +6,8 @@
 
 **原作者github地址[Amos](https://github.com/amosshi)**
 
+另外作者提供的可直接双击运行的jar是有问题的，当解析的class文件中包含double类型时会出现无法解析的情况，请直接使用该源码自行编译打包之后使用。
+
 ## 项目说明
 该项目包含两个部分，一个是JavaClassViewer，也就是本项目的主体，查看class文件的详细信息；
 另一个部分是该项目的一个部分BinaryInternalsViewer，该项目的目的仅仅以16进制的方式展示class文件。
@@ -26,26 +28,3 @@ JavaClassViewer.Main#main
 
 BinaryInternalsViewer.Main#main
 
-
-Java Class Viewer
-=========================
-Watch the Java class file visually & interactively for the meaning of every byte.
-
-Download
- - Download Application: http://sourceforge.net/projects/javaclassviewer/files/JavaClassViewer.zip/download
- - Download Source Code: http://sourceforge.net/projects/javaclassviewer/files/JavaClassViewer-SourceCode.zip/download
-
-Document
- - Programming Logic: http://www.codeproject.com/Articles/35915/Java-Class-Viewer
-
-
-Binary Internals Viewer
-=========================
-An application to show binary file structure in structured way.
-
- - BMP file
- - JPEG file
- - PNG file
- - ZIP file
- - PDF file (in progress)
- 
