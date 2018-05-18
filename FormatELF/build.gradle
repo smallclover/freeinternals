@@ -13,3 +13,16 @@ dependencies {
     compile project(":CommonLib")
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+//指定JAR包 main方法
+jar {
+    manifest {
+        attributes 'biv-plugin': 'org.freeinternals.biv.plugin.dlf.PluginDescriptorELF'
+    }
+}
+
+//依赖编译，然后打包JAR
+task taskJar(type:Jar, dependsOn: compileJava) {
+    from 'build/classes'
+    destinationDir = file('build/libs')
+}
